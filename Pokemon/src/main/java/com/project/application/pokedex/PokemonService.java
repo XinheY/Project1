@@ -42,11 +42,6 @@ public class PokemonService {
 		 }
 		 return result;	
 	}
-//
-//	 //删除topic
-//	public void deleteTopic(String id) {
-//		topicRepository.deleteById(id);
-//	}
 	
 	public boolean isNumeric(String str){ 
 		   Pattern pattern = Pattern.compile("[0-9]*"); 

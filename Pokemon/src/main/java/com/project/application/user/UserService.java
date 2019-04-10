@@ -47,4 +47,9 @@ public class UserService {
 		return false;
 	}
 
+	public void updateUser(User checkuser) {
+		ud.save(checkuser);
+		
+	}
+
 }
