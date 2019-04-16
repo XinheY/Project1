@@ -4,6 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Main page</title>
     <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <script type="text/javascript" src="login.js"> </script>
  </head>
  <body>
    <header>
@@ -12,10 +13,10 @@
         <img src="logo.png">
        </div>  
   		 <ul>
-         <li class="home"><a href="#">HOME</a></li>
+         <li><a href="index.html">HOME</a></li>
      		 <li><a href="#">List</a></li>
      		 <li><a href="#">Sign up</a></li>
-     		 <li><a href="Login.html">Login</a></li>
+     		 <li class="home"><a href="#">Login</a></li>
      		 <li><a href="#">Contact</a></li>
      	 </ul>
      </div>	
@@ -24,9 +25,14 @@
       <img src="picture.png">
     </div>
 
-    <div class="title">
-      <h1>Welcome!</h1>
+    <div class="grid">
+      <form>
+        <input type="text" placeholder="Enter Email" name="email" id="Em"><br>
+        <input type="Password" placeholder="Enter Password" name="pass" id="Pa"><br>
+        <button class="login" type="submit" onclick="validation()"><span class="loginB">Login</span></button>
+      </form>
     </div>
+
    </header>
  </body>
 </html>

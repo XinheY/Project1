@@ -75,6 +75,40 @@ ul li.home a:hover{
 	position: absolute;
 }
 
-.pic img{
-	
+
+.grid{
+	top:37%;
+	left:58%;
+	position: absolute;
+}
+
+
+.grid input{
+	width: 300px;
+	height: 40px;
+	margin-top: 12px;
+	background-color:rgba(0,0,0,0.5);
+	color: white;
+	font-size: 20px;
+	font-family: cursive;
+	border-radius: 10px;
+}
+
+
+
+.loginB{
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.login{
+    width:100px;
+    height:45px;
+    margin:auto;
+    margin-top: 40px;
+    background-color: gray;
+    border-width: 3px;
+    border-radius: 10px;
+    display:block;
 }
